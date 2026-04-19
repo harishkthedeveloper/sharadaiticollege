@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sharada Pvt ITI College</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <i class="fas fa-graduation-cap"></i> Sharada ITI
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="programs.html" class="nav-link">Programs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="placements.html" class="nav-link">Placements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us for admissions and inquiries</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <div class="container">
+            <!-- Contact Information -->
+            <div class="contact-info-section">
+                <h2>Contact Information</h2>
+                <div class="contact-info-grid">
+                    <div class="contact-info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>Palakendram</p>
+                        <p>Thorur, Telangana - 506163</p>
+                        <p>India</p>
+                    </div>
+                    <div class="contact-info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p><a href="tel:08500876885">08500876885</a></p>
+                        <p>Available Mon-Fri: 9 AM - 5 PM</p>
+                    </div>
+                    <div class="contact-info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@sharadaiti.edu.in">info@sharadaiti.edu.in</a></p>
+                        <p><a href="mailto:admissions@sharadaiti.edu.in">admissions@sharadaiti.edu.in</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form and Map -->
+            <div class="contact-form-section">
+                <div class="form-container">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="admission">Admission Inquiry</option>
+                                <option value="program">Program Information</option>
+                                <option value="placement">Placement Information</option>
+                                <option value="campus">Campus Visit</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required placeholder="Enter your message here..." rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+
+                <div class="map-container">
+                    <h2>Location</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.8373169938456!2d79.3891!3d17.3594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a355555555555%3A0x555555555555!2sThorar%2C%20Telangana%20506163!5e0!3m2!1sen!2sin!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <!-- Office Hours and Additional Info -->
+            <div class="office-info">
+                <h2>Office Hours</h2>
+                <div class="office-hours-grid">
+                    <div class="hours-card">
+                        <h4>Monday to Friday</h4>
+                        <p>9:00 AM - 5:00 PM</p>
+                    </div>
+                    <div class="hours-card">
+                        <h4>Saturday</h4>
+                        <p>10:00 AM - 2:00 PM</p>
+                    </div>
+                    <div class="hours-card">
+                        <h4>Sunday & Holidays</h4>
+                        <p>Closed</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h4>What are the admission requirements?</h4>
+                        <p>Students should have passed 10th (SSC) examination from any recognized board and should be at least 14 years old.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>What is the course duration?</h4>
+                        <p>All our programs are 2-year courses that combine theoretical knowledge with practical hands-on training.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Is there a placement guarantee?</h4>
+                        <p>We have a 95% placement record. Our dedicated placement cell provides comprehensive support to all students.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Do you offer scholarship programs?</h4>
+                        <p>Yes, we offer various scholarship schemes based on merit and financial need. Contact our office for details.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>What programs are available?</h4>
+                        <p>We offer Electronics, Mechanical, and Information Technology programs. Visit our Programs page for more details.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>How do I apply?</h4>
+                        <p>You can apply online through our website or visit our campus directly. Contact us for detailed application procedures.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sharada Pvt ITI College</h3>
+                    <p>Providing quality technical education since establishment.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="placements.html">Placements</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Palakendram, Thorur, Telangana - 506163</p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:08500876885">08500876885</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@sharadaiti.edu.in">info@sharadaiti.edu.in</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sharada Pvt ITI College. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
